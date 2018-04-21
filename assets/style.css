@@ -1,0 +1,42 @@
+body{
+    background-image: url("movie-background.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+h1{
+    text-align: center;
+    color: white;
+    text: 300px;
+    
+}
+
+#movie-form{
+    text-align: center;
+}
+
+#movie-input{
+    text-align:center;
+}
+
+.movie{
+    border-radius: 12px;
+    margin: 5px;
+    border: none;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+#add-movie{
+    border-radius: 12px;
+    margin: 5px;
+    border: none;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    background-color: green;
+    color: white;
+}
+
+p{
+    color: white;
+}

@@ -1,0 +1,20 @@
+
+<div id= "container"></div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script type="text/javascript">
+    
+    var movie = ["batman", "superman", "spiderman", "thor"]
+
+    for (var i=0; i < movie.length; i++){
+
+    var newButton= $("<button>")
+
+    newButton.text(movie[i])
+    newButton.addClass("button")
+    newButton.attr("data", movie[i])
+
+    $("#container").append(newButton);
+
+    }
+</script>
